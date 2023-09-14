@@ -143,6 +143,7 @@ end
 
 
 local function setup_autocommand()
+  return;
     local autogroup = vim.api.nvim_create_augroup("neovide_intro", { clear = true })
     vim.api.nvim_create_autocmd({ "VimEnter" }, {
         pattern = "*",
